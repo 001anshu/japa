@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Japa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- t108 is the number of rounds in a single day -->
+  <h1> <span id="display"></span></h4>
+  <h4 id="today-cnt">Today <span id="today"></span></h4>
+  <h4 id="total108">108 x  <span id="t108"></span></h4>
+  <h4 id="lt-cnt">Lifetime <span id="lifetime"></span></h4>
+  <h4 >Lifetime 108 x <span id="lf108"></span></h4>
+
+  
+  
+  <div class="contaner">
+    <img src="./incrementimg-modified.png" alt="button"  id="minus"  onclick="decrement()">
+    <img src="./incrementimg-modified.png" alt="button"  id="plus"  onclick="increment()">
+    
+    
+  </div>
+  
+  <label class="switch">
+    <input type="checkbox" onchange="toggleMode()"  >
+    <span class="slider round"></span>
+    
+  </label>
+  <script src="script.js"></script>
+  
+
+
+
+</body>
+</html>
