@@ -181,4 +181,6 @@ function clearCnt() {
   document.getElementById("today").innerText = "0";
   document.getElementById("t108").innerText="0";
 }
+// added
+
 
