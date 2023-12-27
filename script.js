@@ -172,9 +172,12 @@ if (isTwelvePM()) {
 
 function clearCnt() {
   cnt = 0;
+  dis=0;
   numofRounds=0;
   localStorage.setItem("count", JSON.stringify(cnt));
   localStorage.setItem("108count",JSON.stringify(numofRounds));
+  localStorage.setItem("disp",JSON.stringify(dis));
+  document.getElementById("display").innerText=dis
   document.getElementById("today").innerText = "0";
   document.getElementById("t108").innerText="0";
 }
